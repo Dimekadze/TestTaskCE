@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 13rem;
+  // gap: 50px;
+
+  &__cards--block {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__block--left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+  }
+
+  &__block--right {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+
+  &__card--det {
+    
+  }
+  
+  h1 {
+    color: #316099;
+    max-width: 22rem;
+    text-align: left;
+    letter-spacing: 5%;
+    margin-right: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+}

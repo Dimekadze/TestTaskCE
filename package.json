@@ -1,0 +1,21 @@
+{
+  "name": "layouttesttask",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext .js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.13",
+    "sass": "^1.99.0",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@delement/eslint-config-master": "^1.2.0"
+  }
+}
