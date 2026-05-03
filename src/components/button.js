@@ -1,11 +1,13 @@
 export class Button {
-  constructor(text) {
+  constructor(text, type = 'button') {
     this.text = text;
+    this.type = type;
   }
 
-  render() {
+  render(id = null) {
+    const idAttr = id ? `id="${id}"` : '';
     return `
-      <button class="button" id="open_modal">${this.text}</button>
+      <button ${idAttr} class="button button--primary" type="${this.type}">${this.text}</button>
     `;
   }
 }

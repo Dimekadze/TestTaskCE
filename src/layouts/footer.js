@@ -43,7 +43,7 @@ export function footer_render() {
               Ut enim ad minim veniam.
             </p>
           </div>
-          ${button2.render()}
+          ${button2.render('open_modal')}
         </div>
 
         <hr>
@@ -83,6 +83,8 @@ export function footer_render() {
       </div>
     </footer>
 
-
+    <dialog id="modal" class="footer--forma">
+      ${forma.render()}
+    </dialog>
   `;
 }

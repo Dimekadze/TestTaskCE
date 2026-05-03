@@ -4,7 +4,6 @@ import './style.scss';
 import { header_render } from './layouts/header.js';
 import { main_body_render } from './layouts/mainbody.js';
 import { footer_render } from './layouts/footer.js';
-import { Form } from './components/forma.js'
 
 function renderPage() {
   const app = document.getElementById('app');
@@ -16,11 +15,16 @@ function renderPage() {
   `;
 
   const modal = document.getElementById('modal');
-  const openmodal = document.getElementById('open_modal');
+  const open_modal = document.getElementById('open_modal');
+  const close_modal = document.getElementById('close_modal');
 
-  openmodal.addEventListener('click', () => {
-    modal.show();
-  });
+  if (open_modal && modal) {
+    open_modal.addEventListener('click', () => {
+      modal.showModal();
+      document.body.style.overflow = 'hidden';
+    });
+  }
+
 }
 
 renderPage();
