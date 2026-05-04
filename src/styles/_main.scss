@@ -2,40 +2,62 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 13rem;
+  margin: 0 8rem;
   // gap: 50px;
 
   &__cards--block {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+    // flex-direction: column;
+    align-items: flex-start;
   }
 
-  &__block--left {
+  &__left {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 150px;
+    max-width: 40rem;
+
+    h1 {
+      color: #316099;
+      max-width: 30rem;
+      font-size: 2.5rem;
+      text-align: left;
+      letter-spacing: 5%;
+      margin-right: 200px;
+      font-weight: 600;
+    }
+
+    &--card1 {
+      img {
+        // margin-top: -90px;
+        max-width: 12rem;
+      }
+    }
   }
 
-  &__block--right {
+  &__right {
     display: flex;
     flex-direction: column;
     gap: 100px;
-  }
 
+    &--card2 {
+      .card__logo--top {
+        margin-top: -80px;
+        // margin-bottom: ;
+        max-width: 16rem;
+      }
+    }
 
-  &__card--det {
-    
+    &--card3 {
+      img {
+        max-width: 12rem;
+        // padding-top: -40px;
+      }
+    }
   }
-  
-  h1 {
-    color: #316099;
-    max-width: 22rem;
-    text-align: left;
-    letter-spacing: 5%;
-    margin-right: 200px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-  }
-  
 }
+
+  
+

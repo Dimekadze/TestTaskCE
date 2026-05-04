@@ -31,56 +31,58 @@ export function footer_render() {
             <th class="footer--unique">More Client</th>
           </tr>
         </table>
-      </div>
-
-      <div class="footer__down">
-        <div class="footer__down--block--up">
-          <div class="footer__down--block--team">
-            <h2>Interested to work with our team?</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam.
-            </p>
-          </div>
-          ${button2.render('open_modal')}
-        </div>
-
-        <hr>
-
-        <div class="footer__down--block--down">
-          <div class="footer__down--contacts">
-            <div class="footer__down--contacts--logo">
-              <img src="/src/assets/logo(1).svg" alt="Logo">
-              <h2 class="footer__down--unique">Afrianska</h2>
+        
+        <div class="footer__down">
+          <div class="footer__down--block--up">
+            <div class="footer__down--block--team">
+              <h2>Interested to work with our team?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam.
+              </p>
             </div>
-            <ol>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-              <li>+62-812-7313-4321</li>
-              <li>hello.afrian@gmail.com</li>
-            </ol>
+            ${button2.render('open_modal')}
           </div>
-          <div class="footer__down--about">
-            <h2>About US</h2>
-            <ul>
-              <li>About</li>
-              <li>What We Do</li>
-              <li>Project</li>
-              <li>How It Work With Us</li>
-            </ul>
+  
+          <hr>
+  
+          <div class="footer__down--block--down">
+            <div class="footer__down--contacts">
+              <div class="footer__down--contacts--logo">
+                <img src="/src/assets/logo(1).svg" alt="Logo">
+                <h2 class="footer__down--unique">Afrianska</h2>
+              </div>
+              <ol>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>+62-812-7313-4321</li>
+                <li>hello.afrian@gmail.com</li>
+              </ol>
+            </div>
+            <div class="footer__down--about">
+              <h2>About US</h2>
+              <ul>
+                <li>About</li>
+                <li>What We Do</li>
+                <li>Project</li>
+                <li>How It Work With Us</li>
+              </ul>
+            </div>
+            <div class="footer__down--follow">
+              <h2>Follow US</h2>
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>LinkedIn</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
           </div>
-          <div class="footer__down--follow">
-            <h2>Follow US</h2>
-            <ul>
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>LinkedIn</li>
-              <li>Youtube</li>
-            </ul>
-          </div>
+          <p class="footer__down--rights">2019 &copy; Afrianska. All rights reserved.</p>
         </div>
-        <p class="footer__down--rights">2019 © Afrianska. All rights reserved.</p>
       </div>
+
+
     </footer>
 
     <dialog id="modal" class="footer--forma">

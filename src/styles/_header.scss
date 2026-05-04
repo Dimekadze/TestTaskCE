@@ -1,7 +1,30 @@
 .header {
-  background-image: url("src/assets/Rectangle.svg");
-  padding: 40px 0 80px;
+  background-image: url("../assets/Rectangle.svg");
+  background-size: cover;
+  // background: linear-gradient(180deg, #f4f9ff 0%, #e8f0fa 100%);
+  background-position: center;
+  // background-repeat: no-repeat;
+  padding: 0 3rem;
+  padding-top: 3rem;
+  min-height: 100vh;
 
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background: linear-gradient(
+  //     to top,
+  //     rgba(90, 152, 208, 0.2) 0%,      // голубоватый внизу
+  //     rgba(255, 255, 255, 0.95) 50%,   // почти белый в середине
+  //     rgba(255, 255, 255, 1) 100%      // полностью белый сверху
+  //   );
+  //   pointer-events: none;
+  //   z-index: 1;
+  // }
+  
   &__top {
     // display: flex;
     // flex-direction: column;
@@ -10,7 +33,6 @@
     margin: 0 auto;
     // gap: 100px;
     max-width: 75%;
-    padding: 0 60px;
   }
   
   &__top--blocks {
@@ -19,7 +41,7 @@
     justify-content: space-between;
 
     img {
-      margin-left: -80px;
+      // padding-left: -80px;
       position: relative;
       z-index: 1;
     }
@@ -36,11 +58,19 @@
     z-index: 10;
   }
   
-  &--navbar {
+  &__navbar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
     margin: 0 5rem;
+    margin-bottom: 3rem;
+  
+    &--logo {
+      
+    }
+
+    &--list {
+
+    }
   }
   
   &__main--info {

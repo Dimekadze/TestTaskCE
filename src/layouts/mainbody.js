@@ -1,7 +1,6 @@
 import { cardsData } from '../data/data_card.js';
 import { Card } from '../components/card.js';
 
-
 export function main_body_render() {
   const card1 = new Card(
     cardsData[0].title,
@@ -27,17 +26,17 @@ export function main_body_render() {
   return `
     <main class="main">
       <div class="main__cards--block">
-        <div class="main__block--left">
+        <div class="main__left">
           <h1>What we do to help our client grow in digital era</h1>
-          <div class="main__card--det">
+          <div class="main__left--card1">
             ${card1.render()}
           </div>
         </div>
-        <div class="main__block--right">
-          <div class="main__card--det">
+        <div class="main__right">
+          <div class="main__right--card2">
             ${card2.render()}
           </div>
-          <div class="main__card--det">
+          <div class="main__right--card3">
             ${card3.render()}
           </div>
         </div>

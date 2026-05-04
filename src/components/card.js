@@ -9,10 +9,10 @@ export class Card {
   render() {
     return `
       <div class="card">
-        <img src="${this.iconUrl}" alt="card icon" class="card__icon">
+        <img src="${this.iconUrl}" alt="card icon" class="card__logo--top">
         <div class="card__info">
-          <h3 class="card__title">${this.title}</h3>
-          <p class="card__text">${this.text}</p>
+          <h3>${this.title}</h3>
+          <p>${this.text}</p>
           <div class="card__link">
             <a href="#" class="card__link">Learn more </a>
             <img src="${this.iconArrow}" alt="arrow icon" class="arrow__icon">

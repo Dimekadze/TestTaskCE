@@ -1,4 +1,3 @@
-// main.js
 import './style.scss';
 
 import { header_render } from './layouts/header.js';
@@ -22,6 +21,14 @@ function renderPage() {
     open_modal.addEventListener('click', () => {
       modal.showModal();
       document.body.style.overflow = 'hidden';
+    });
+  }
+
+  if (close_modal && modal) {
+    close_modal.addEventListener('click', () => {
+      modal.close();
+      document.body.style.overflow = '';
+      clearErrors();
     });
   }
 
