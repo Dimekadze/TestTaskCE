@@ -6,8 +6,8 @@ export function header_render() {
   return `
     <header class="header">
       <nav class="header__navbar">
-        <img class="header__navbar--logo" src="/src/assets/logo2.svg" alt="Navigation" class="navbar--top">
-        <img class="header__navbar--list" src="/src/assets/ic_menu_48px.svg" alt="Navigation" class="navbar--top">
+        <img src="/src/assets/logo2.svg" alt="Navigation">
+        <img src="/src/assets/ic_menu_48px.svg" alt="Navigation">
       </nav>
       <div class="header__top">
         <div class="header__top--blocks">

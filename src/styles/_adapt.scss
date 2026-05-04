@@ -1,0 +1,383 @@
+// 1024-1366px
+@media (max-width: 1366px) {
+  // шапка
+  .header {
+    padding: 2rem;
+    
+    &__top {
+      max-width: 85%;
+    }
+    
+    &__main--info h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  // тело
+  .main {
+    margin: 0 4rem;
+    
+    h1 {
+      font-size: 2rem;
+      margin-right: 100px;
+    }
+    
+    &__cards--block {
+      gap: 30px;
+    }
+  }
+  
+  // дно
+  .footer {
+    &__top--slogan {
+      padding: 0 5rem;
+      gap: 3rem;
+    }
+    
+    td, th {
+      padding: 2rem 4rem;
+    }
+    
+    &__down {
+      padding: 0 5rem;
+      margin-right: 3rem;
+    }
+  }
+}
+
+// 768-1024px
+@media (max-width: 1024px) {
+  // шапка
+  .header {
+    padding: 1.5rem;
+    min-height: auto;
+    
+    &__top--blocks {
+      flex-direction: column;
+      text-align: center;
+      
+      img {
+        margin-top: 2rem;
+        max-width: 80%;
+      }
+    }
+    
+    &__top--blocks--left {
+      max-width: 100%;
+      align-items: center;
+    }
+    
+    &__main--info {
+      align-items: center;
+      
+      h1 {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      
+      p {
+        max-width: 90%;
+        text-align: center;
+      }
+    }
+  }
+  
+  // тело
+  .main {
+    margin: 0 2rem;
+    
+    &__cards--block {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    &__left {
+      align-items: center;
+      gap: 50px;
+      
+      h1 {
+        margin-right: 0;
+        text-align: center;
+        max-width: 100%;
+      }
+    }
+    
+    &__right {
+      gap: 50px;
+    }
+  }
+  
+  // дно
+  .footer {
+    &__top--slogan {
+      flex-direction: column;
+      text-align: center;
+      padding: 0 2rem;
+      gap: 1.5rem;
+      
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+    
+    td, th {
+      padding: 1.5rem 2rem;
+      font-size: 1rem;
+    }
+    
+    &__down {
+      padding: 0 2rem;
+      margin-right: 0;
+      
+      &--block--up {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+      }
+      
+      &--block--team {
+        text-align: center;
+        align-items: center;
+      }
+      
+      &--block--down {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+      }
+      
+      &--contacts,
+      &--about,
+      &--follow {
+        align-items: center;
+        text-align: center;
+      }
+      
+      &--contacts--logo {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+// 360-768px
+@media (max-width: 768px) {
+  // шапка
+  .header {
+    padding: 1rem;
+    
+    &__navbar {
+      margin: 0 1rem;
+      margin-bottom: 2rem;
+      
+      img {
+        max-width: 100px;
+      }
+    }
+    
+    &__top {
+      max-width: 95%;
+    }
+    
+    &__main--info {
+      gap: 1rem;
+      margin-bottom: 2rem;
+      
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      p {
+        font-size: 0.9rem;
+        max-width: 100%;
+      }
+    }
+    
+    &--button button {
+      padding: 0.8rem 2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  // тело
+  .main {
+    margin: 0 1rem;
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    &__left--card1,
+    &__right--card2,
+    &__right--card3 {
+      img {
+        max-width: 8rem !important;
+      }
+    }
+  }
+  
+  // карточки
+  .card {
+    padding: 24px;
+    min-height: auto;
+    
+    img {
+      margin-bottom: 1.5rem;
+    }
+    
+    &__info {
+      max-width: 100%;
+      
+      h3 {
+        font-size: 1.2rem;
+      }
+      
+      p {
+        font-size: 0.85rem;
+      }
+    }
+    
+    &__link {
+      gap: 1rem;
+      
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
+  // дно
+  .footer {
+    &__top {
+      border-top-left-radius: 100px;
+      
+      td, th {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+      }
+    }
+    
+    &__top--slogan {
+      padding: 0 1rem;
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        font-size: 0.85rem;
+      }
+    }
+    
+    &__down {
+      border-top-right-radius: 100px;
+      padding-top: 3rem;
+      
+      &--block--team {
+        h2 {
+          font-size: 1.5rem;
+          line-height: 1.3;
+        }
+        
+        p {
+          font-size: 0.85rem;
+        }
+      }
+      
+      &--block--up {
+        button {
+          padding: 0.8rem 2rem;
+        }
+      }
+      
+      &--contacts,
+      &--about,
+      &--follow {
+        h2 {
+          font-size: 1.2rem;
+        }
+        
+        li {
+          font-size: 0.85rem;
+        }
+      }
+      
+      &--rights {
+        font-size: 0.75rem;
+        text-align: center;
+      }
+    }
+  }
+  
+  // форма
+  .forma {
+    width: 95vw;
+    
+    &__window {
+      padding: 24px;
+    }
+    
+    &__top {
+      h2 {
+        font-size: 1rem;
+      }
+    }
+    
+    &__input {
+      height: 50px;
+      padding: 0 20px;
+      font-size: 0.9rem;
+    }
+    
+    &__textarea {
+      padding: 15px 20px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// 320-360px
+@media (max-width: 480px) {
+  .header__main--info h1 {
+    font-size: 1.5rem;
+  }
+  
+  .main {
+    h1 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  .card {
+    padding: 20px;
+    
+    &__info {
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .footer {
+    td, th {
+      padding: 0.5rem;
+      font-size: 0.7rem;
+    }
+    
+    &__top--slogan {
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+    
+    &__down--block--team {
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
+  .forma__window {
+    padding: 16px;
+  }
+}
