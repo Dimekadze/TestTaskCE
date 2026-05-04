@@ -3,7 +3,11 @@ import { Button } from "./button.js";
 
 const button3 = new Button("SUBMIT", "submit");
 
+/**
+ *
+ */
 export class Form {
+
   render() {
     return `
       <div class="forma">
@@ -34,4 +38,5 @@ export class Form {
       </div>
     `;
   }
+
 }

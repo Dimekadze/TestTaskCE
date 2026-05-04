@@ -1,4 +1,8 @@
+/**
+ *
+ */
 export class Card {
+
   constructor(title, text, iconUrl, iconArrow) {
     this.title = title;
     this.text = text;
@@ -21,4 +25,5 @@ export class Card {
       </div>
     `;
   }
+
 }

@@ -1,6 +1,9 @@
 import { Button } from "../components/button";
-import { Form } from '../components/forma.js';
+import { Form } from "../components/forma.js";
 
+/**
+ *
+ */
 export function footer_render() {
   const button2 = new Button("Let's Talk");
   const forma = new Form();
@@ -42,7 +45,7 @@ export function footer_render() {
                 Ut enim ad minim veniam.
               </p>
             </div>
-            ${button2.render('open_modal')}
+            ${button2.render("open_modal")}
           </div>
   
           <hr>
