@@ -1,6 +1,5 @@
 // 1024-1366px
 @media (max-width: 1366px) {
-  // шапка
   .header {
     padding: 2rem;
     
@@ -13,9 +12,8 @@
     }
   }
   
-  // тело
   .main {
-    margin: 0 4rem;
+    margin: 8rem 4rem;
     
     h1 {
       font-size: 2rem;
@@ -27,7 +25,6 @@
     }
   }
   
-  // дно
   .footer {
     &__top--slogan {
       padding: 0 5rem;
@@ -39,15 +36,18 @@
     }
     
     &__down {
-      padding: 0 5rem;
+      padding: 5rem 5rem 0;
       margin-right: 3rem;
+      
+      &--block--up {
+        gap: 4rem;
+      }
     }
   }
 }
 
 // 768-1024px
 @media (max-width: 1024px) {
-  // шапка
   .header {
     padding: 1.5rem;
     min-height: auto;
@@ -82,9 +82,8 @@
     }
   }
   
-  // тело
   .main {
-    margin: 0 2rem;
+    margin: 6rem 2rem;
     
     &__cards--block {
       flex-direction: column;
@@ -104,10 +103,15 @@
     
     &__right {
       gap: 50px;
+      width: 100%;
+      align-items: center;
     }
   }
   
-  // дно
+  .card {
+    max-width: 500px;
+  }
+  
   .footer {
     &__top--slogan {
       flex-direction: column;
@@ -126,13 +130,13 @@
     }
     
     &__down {
-      padding: 0 2rem;
+      padding: 4rem 2rem 0;
       margin-right: 0;
       
       &--block--up {
         flex-direction: column;
         text-align: center;
-        gap: 2rem;
+        gap: 3rem;
       }
       
       &--block--team {
@@ -162,7 +166,6 @@
 
 // 360-768px
 @media (max-width: 768px) {
-  // шапка
   .header {
     padding: 1rem;
     
@@ -199,27 +202,62 @@
     }
   }
   
-  // тело
-  .main {
-    margin: 0 1rem;
+    .main {
+    margin: 5rem 1rem 4rem;
     
     h1 {
       font-size: 1.5rem;
     }
     
-    &__left--card1,
-    &__right--card2,
-    &__right--card3 {
-      img {
-        max-width: 8rem !important;
+    &__cards--block {
+      gap: 40px;
+    }
+    
+    &__left {
+      width: 100%;
+      align-items: center;
+      
+      &--card1 {
+        max-width: 340px;
+        width: 100%;
+        
+        img {
+          max-width: 10rem !important;
+        }
+      }
+    }
+    
+    &__right {
+      width: 100%;
+      align-items: center;
+      gap: 40px;
+      
+      &--card2 {
+        max-width: 340px;
+        width: 100%;
+        
+        .card__logo--top {
+          margin-top: -30px;
+          max-width: 12rem;
+        }
+      }
+      
+      &--card3 {
+        max-width: 340px;
+        width: 100%;
+        
+        img {
+          max-width: 10rem !important;
+        }
       }
     }
   }
   
-  // карточки
   .card {
-    padding: 24px;
+    padding: 24px 20px;
     min-height: auto;
+    max-width: 340px;
+    margin: 0 auto;
     
     img {
       margin-bottom: 1.5rem;
@@ -246,10 +284,13 @@
     }
   }
   
-  // дно
   .footer {
     &__top {
       border-top-left-radius: 100px;
+      
+      table {
+        width: 100%;
+      }
       
       td, th {
         padding: 0.8rem 1rem;
@@ -271,7 +312,11 @@
     
     &__down {
       border-top-right-radius: 100px;
-      padding-top: 3rem;
+      padding: 4rem 1.5rem 0;
+      
+      &--block--up {
+        gap: 2.5rem;
+      }
       
       &--block--team {
         h2 {
@@ -284,10 +329,8 @@
         }
       }
       
-      &--block--up {
-        button {
-          padding: 0.8rem 2rem;
-        }
+      &--block--up button {
+        padding: 0.8rem 2rem;
       }
       
       &--contacts,
@@ -309,7 +352,6 @@
     }
   }
   
-  // форма
   .forma {
     width: 95vw;
     
@@ -317,10 +359,8 @@
       padding: 24px;
     }
     
-    &__top {
-      h2 {
-        font-size: 1rem;
-      }
+    &__top h2 {
+      font-size: 1rem;
     }
     
     &__input {
@@ -336,25 +376,30 @@
   }
 }
 
-// 320-360px
+// 320-480px
 @media (max-width: 480px) {
   .header__main--info h1 {
     font-size: 1.5rem;
   }
   
   .main {
+    margin: 4rem 1rem 3rem;
+    
     h1 {
       font-size: 1.3rem;
+    }
+    
+    &__right--card2 .card__logo--top {
+      margin-top: -20px;
+      max-width: 10rem;
     }
   }
   
   .card {
-    padding: 20px;
+    padding: 20px 16px;
     
-    &__info {
-      h3 {
-        font-size: 1rem;
-      }
+    &__info h3 {
+      font-size: 1rem;
     }
   }
   
@@ -364,15 +409,19 @@
       font-size: 0.7rem;
     }
     
-    &__top--slogan {
-      h2 {
-        font-size: 1.2rem;
-      }
+    &__top--slogan h2 {
+      font-size: 1.2rem;
     }
     
-    &__down--block--team {
-      h2 {
+    &__down {
+      padding: 3rem 1rem 0;
+      
+      &--block--team h2 {
         font-size: 1.2rem;
+      }
+      
+      &--block--up {
+        gap: 2rem;
       }
     }
   }

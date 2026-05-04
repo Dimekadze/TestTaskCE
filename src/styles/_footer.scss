@@ -73,6 +73,15 @@
     padding-top: 6rem;
     margin-right: 6rem;
   
+    &--hr {
+      margin: 4rem 0 4rem -13rem;
+
+      hr {
+        margin: 0;
+        width: 100%;
+      }
+    }
+
     &--block--up {
       display: flex;
       // gap: 35rem;

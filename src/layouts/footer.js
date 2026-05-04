@@ -48,7 +48,9 @@ export function footer_render() {
             ${button2.render("open_modal")}
           </div>
   
-          <hr>
+          <div class="footer__down--hr">
+            <hr>
+          </div>
   
           <div class="footer__down--block--down">
             <div class="footer__down--contacts">
