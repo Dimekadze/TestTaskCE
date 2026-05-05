@@ -74,7 +74,7 @@
           <div class="footer__down--block--down">
             <div class="footer__down--contacts">
               <div class="footer__down--contacts--logo">
-                <img src="/src/assets/logo(1).svg" alt="Logo">
+                <img src="/assets/logo(1).svg" alt="Logo">
                 <h2 class="footer__down--unique">Afrianska</h2>
               </div>
               <ol>
@@ -115,8 +115,8 @@
   `}function i(){return`
     <header class="header">
       <nav class="header__navbar">
-        <img src="/src/assets/logo2.svg" alt="Navigation">
-        <img src="/src/assets/ic_menu_48px.svg" alt="Navigation">
+        <img src="/assets/logo2.svg" alt="Navigation">
+        <img src="/assets/ic_menu_48px.svg" alt="Navigation">
       </nav>
       <div class="header__top">
         <div class="header__top--blocks">
@@ -131,7 +131,7 @@
             </div>
             <div class="header--button">${new e(`See Our Project`).render()}</div>
           </div>
-          <img src="/src/assets/illustration.svg" alt="Illustration">
+          <img src="/assets/illustration.svg" alt="Illustration">
         </div>
       </div>
     </header>
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-    `}},o=[{title:`Make Your business To Be Better Famous In Internet`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/src/assets/1.svg`,iconArrow:`/src/assets/Vector.svg`},{title:`Bring Technology To Your Comfrotable Home`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/src/assets/3.svg`,iconArrow:`/src/assets/Vector.svg`},{title:`Build Your Digital Product That Suitable For Your Need`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/src/assets/2 20.svg`,iconArrow:`/src/assets/Vector.svg`}];function s(){let e=new a(o[0].title,o[0].text,o[0].iconUrl,o[0].iconArrow),t=new a(o[1].title,o[1].text,o[1].iconUrl,o[1].iconArrow),n=new a(o[2].title,o[2].text,o[2].iconUrl,o[2].iconArrow);return`
+    `}},o=[{title:`Make Your business To Be Better Famous In Internet`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/assets/1.svg`,iconArrow:`/assets/Vector.svg`},{title:`Bring Technology To Your Comfrotable Home`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/assets/3.svg`,iconArrow:`/assets/Vector.svg`},{title:`Build Your Digital Product That Suitable For Your Need`,text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,iconUrl:`/assets/2 20.svg`,iconArrow:`/assets/Vector.svg`}];function s(){let e=new a(o[0].title,o[0].text,o[0].iconUrl,o[0].iconArrow),t=new a(o[1].title,o[1].text,o[1].iconUrl,o[1].iconArrow),n=new a(o[2].title,o[2].text,o[2].iconUrl,o[2].iconArrow);return`
     <main class="main">
       <div class="main__cards--block">
         <div class="main__left">
