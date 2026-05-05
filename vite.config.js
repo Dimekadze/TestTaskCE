@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import path from 'path';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   root: './',
-  base: '/TestTaskCE/',
+  base: mode === 'production' ? '/TestTaskCE/' : '/',
   build: {
     outDir: 'dist',
   },
@@ -15,4 +15,4 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-});
+}));
