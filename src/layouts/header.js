@@ -9,8 +9,8 @@ export function header_render() {
   return `
     <header class="header">
       <nav class="header__navbar">
-        <img src="/assets/logo2.svg" alt="Navigation">
-        <img src="/assets/ic_menu_48px.svg" alt="Navigation">
+        <img src="/logo_dark.svg" alt="Navigation">
+        <img src="/list.svg" alt="Navigation">
       </nav>
       <div class="header__top">
         <div class="header__top--blocks">
@@ -25,7 +25,7 @@ export function header_render() {
             </div>
             <div class="header--button">${button1.render()}</div>
           </div>
-          <img src="/assets/illustration.svg" alt="Illustration">
+          <img src="/illustration.svg" alt="Illustration">
         </div>
       </div>
     </header>

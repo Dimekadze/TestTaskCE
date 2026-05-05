@@ -55,7 +55,7 @@ export function footer_render() {
           <div class="footer__down--block--down">
             <div class="footer__down--contacts">
               <div class="footer__down--contacts--logo">
-                <img src="/assets/logo(1).svg" alt="Logo">
+                <img src="/logo_light.svg" alt="Logo">
                 <h2 class="footer__down--unique">Afrianska</h2>
               </div>
               <ol>
