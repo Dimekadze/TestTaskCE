@@ -88,6 +88,7 @@
     &__cards--block {
       flex-direction: column;
       align-items: center;
+      gap: 70px;
     }
     
     &__left {
@@ -106,6 +107,14 @@
       width: 100%;
       align-items: center;
     }
+
+    // &--card2 {
+    //   .card__logo--top {
+    //     margin-top: -100px;
+    //     // margin-bottom: ;
+    //     max-width: 16rem;
+    //   }
+    // }
   }
   
   .card {
@@ -202,7 +211,7 @@
     }
   }
   
-    .main {
+  .main {
     margin: 5rem 1rem 4rem;
     
     h1 {
@@ -237,7 +246,7 @@
         width: 100%;
         
         .card__logo--top {
-          margin-top: -30px;
+          margin-top: -40px;
           max-width: 12rem;
         }
       }
@@ -390,7 +399,7 @@
     }
     
     &__right--card2 .card__logo--top {
-      margin-top: -20px;
+      margin-top: -40px;
       max-width: 10rem;
     }
   }
