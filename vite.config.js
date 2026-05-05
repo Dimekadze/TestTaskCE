@@ -3,6 +3,7 @@ import path from 'path';
 
 export default defineConfig({
   root: './',
+  base: '/TestTaskCE/',
   build: {
     outDir: 'dist',
   },
