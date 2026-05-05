@@ -1,3 +1,6 @@
+import illustration from "../assets/illustration.svg";
+import list from "../assets/list.svg";
+import logo_dark from "../assets/logo_dark.svg";
 import { Button } from "../components/button";
 
 /**
@@ -9,8 +12,8 @@ export function header_render() {
   return `
     <header class="header">
       <nav class="header__navbar">
-        <img src="/logo_dark.svg" alt="Navigation">
-        <img src="/list.svg" alt="Navigation">
+        <img src="${logo_dark}" alt="Navigation">
+        <img src="${list}" alt="Navigation">
       </nav>
       <div class="header__top">
         <div class="header__top--blocks">
@@ -25,7 +28,7 @@ export function header_render() {
             </div>
             <div class="header--button">${button1.render()}</div>
           </div>
-          <img src="/illustration.svg" alt="Illustration">
+          <img src="${illustration}" alt="Illustration">
         </div>
       </div>
     </header>

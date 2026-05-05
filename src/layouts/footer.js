@@ -1,3 +1,4 @@
+import logo_light from "../assets/logo_light.svg";
 import { Button } from "../components/button";
 import { Form } from "../components/forma.js";
 
@@ -55,7 +56,7 @@ export function footer_render() {
           <div class="footer__down--block--down">
             <div class="footer__down--contacts">
               <div class="footer__down--contacts--logo">
-                <img src="/logo_light.svg" alt="Logo">
+                <img src="${logo_light}" alt="Logo">
                 <h2 class="footer__down--unique">Afrianska</h2>
               </div>
               <ol>
